@@ -17,6 +17,7 @@ export default function Temp() {
     return (
         <>
         <div className="box">
+            <h2>Enter city Name</h2>
             <div className="inputData">
                 <input type="search"  className="inputField"  onChange={(e) => {setSearch(e.target.value)}}/>
             </div>
